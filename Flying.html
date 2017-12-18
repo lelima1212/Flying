@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title> Flying </title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta charset = "utf-8">
+			<meta name = "keywords" content = "Buscar, Vuelos">
+			<link rel="stylesheet" href="css/Estilo.css" type="text/css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		</head>
+		<body>
+			<div class="table-responsive">
+				<table>
+					<tr>
+						<div class="container">
+						<h1>Flying</h1>
+						<label>Origen: </label>
+						<div class="btn-group">
+							<button class="btn btn-default btn-sm dropdown-toggle"
+							type="button" data-toggle="dropdown">
+							Paises <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Acción #1</a></li>
+							<li><a href="#">Acción #2</a></li>
+							<li><a href="#">Acción #3</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Acción #4</a></li>
+						  </ul>
+						</div>
+					</tr>
+					<tr>
+						<label>Destino: </label>
+						<div class="btn-group">
+							<button class="btn btn-default btn-sm dropdown-toggle"
+							type="button" data-toggle="dropdown">
+							Paises <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Acción #1</a></li>
+							<li><a href="#">Acción #2</a></li>
+							<li><a href="#">Acción #3</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Acción #4</a></li>
+						  </ul>
+						</div>
+					</tr>
+					<tr>
+						<div class="radio">
+						  <label><input type="radio" name="optradio">Vuelo Directo</label>
+						</div>
+					</tr>
+					<tr>
+						<div class="radio">
+						  <label><input type="radio" name="optradio">Vuelo con Escalas</label>
+						</div>
+					</tr>
+					<tr>
+						<button type="button" class="btn">Buscar</button>
+					</tr>
+				</table>
+			</div>	
+			<section>
+				<h5>Resultados de la búsqueda</h5>
+				<div class="table-responsive">
+					<table class="table">
+					<tr>
+						<td>
+							<label>Aerolinea</label>
+						</td>
+						<td>
+							<label>IATA</label>
+						</td>
+						<td>
+							<label>Pais</label>
+						</td>
+					</tr>
+					</table>
+				</div>
+			</section>
+		</body>
+	</html>
